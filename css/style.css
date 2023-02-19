@@ -1,0 +1,45 @@
+body {
+    font-family: MontSerrat;
+    background-color: rgb(166, 82, 245);
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    font-weight: 600;
+}
+
+h2,
+p {
+    margin: 0px;
+}
+
+.destaques {
+    max-width: 350px;
+    display: grid;
+    gap: 2rem;
+}
+
+.titulo {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.destaque {
+    display: grid;
+    gap: 1rem;
+    background-image: linear-gradient(
+        to right,
+        rgb(237, 179, 245),
+        rgb(249, 205, 255)
+    );
+    color: black;
+    padding: 1rem;
+    border-radius: 6px;
+    outline: 2px solid white;
+}
+
+.subtitulo {
+    font-size: 2rem;
+}
+
+.conteúdo {
+    font-size: 1.5rem;
+}
